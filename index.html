@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Next Life</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-gray-100 min-h-screen flex flex-col justify-center items-center"
+  >
+    <h1 class="text-4xl font-bold text-gray-800 mb-8">
+      Your Next Life Generator
+    </h1>
+
+    <div id="results" class="flex flex-wrap justify-center gap-6 p-4">
+      <div class="w-64">
+        <h2 class="text-xl font-semibold text-center mb-2">You</h2>
+        <img
+          id="youImage"
+          src=""
+          alt="Your next life self"
+          class="w-full h-auto rounded-lg shadow-lg"
+        />
+      </div>
+      <div class="w-64">
+        <h2 class="text-xl font-semibold text-center mb-2">Partner</h2>
+        <img
+          id="partnerImage"
+          src=""
+          alt="Your next life partner"
+          class="w-full h-auto rounded-lg shadow-lg"
+        />
+      </div>
+      <div class="w-64">
+        <h2 class="text-xl font-semibold text-center mb-2">Pet</h2>
+        <img
+          id="petImage"
+          src=""
+          alt="Your next life pet"
+          class="w-full h-auto rounded-lg shadow-lg"
+        />
+      </div>
+      <div class="w-64">
+        <h2 class="text-xl font-semibold text-center mb-2">House</h2>
+        <img
+          id="houseImage"
+          src=""
+          alt="Your next life house"
+          class="w-full h-auto rounded-lg shadow-lg"
+        />
+      </div>
+    </div>
+
+    <button
+      id="diagnoseButton"
+      class="mt-8 bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 transform hover:scale-105"
+    >
+      Diagnose Your Next Life
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
