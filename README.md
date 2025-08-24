@@ -1,4 +1,4 @@
-# **our Next Life Generator**
+# **Your Next Life Generator**
 
 This project is a fun generator that diagnoses your next life with a single button click. The results are displayed as images in four categories: "Yourself," "Your Partner," "Your Pet," and "Your House."
 
